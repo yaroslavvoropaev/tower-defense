@@ -1,0 +1,4 @@
+add_library(nearest_to_tower src/NearestToTower.cpp)
+
+target_include_directories(nearest_to_tower PUBLIC include)
+target_link_libraries(nearest_to_tower istrategy ienemy_repository)

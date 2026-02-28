@@ -1,0 +1,4 @@
+add_library(nearest_to_castle src/NearestToCastle.cpp)
+
+target_include_directories(nearest_to_castle PUBLIC include)
+target_link_libraries(nearest_to_castle istrategy ienemy_repository icastle_repository)

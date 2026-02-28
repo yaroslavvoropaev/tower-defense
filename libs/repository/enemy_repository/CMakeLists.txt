@@ -1,0 +1,4 @@
+add_library(enemy_repository src/EnemyRepository.cpp)
+
+target_include_directories(enemy_repository PUBLIC include)
+target_link_libraries(enemy_repository ienemy_repository)

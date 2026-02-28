@@ -1,0 +1,4 @@
+add_library(magic_tower src/MagicTower.cpp)
+
+target_include_directories(magic_tower PUBLIC include)
+target_link_libraries(magic_tower damage_tower abstract_tower effect_tower)

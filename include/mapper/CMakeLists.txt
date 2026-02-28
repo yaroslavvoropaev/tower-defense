@@ -1,0 +1,3 @@
+add_subdirectory(castle_mapper)
+add_subdirectory(enemy_mapper)
+add_subdirectory(tower_mapper)

@@ -1,0 +1,4 @@
+add_library(all_in_range src/AllInRange.cpp)
+
+target_include_directories(all_in_range PUBLIC include)
+target_link_libraries(all_in_range istrategy ienemy_repository)

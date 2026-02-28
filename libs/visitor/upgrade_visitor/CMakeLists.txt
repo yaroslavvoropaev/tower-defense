@@ -1,0 +1,3 @@
+add_subdirectory(simple_tower_upgrade_visitor)
+add_subdirectory(magic_tower_upgrade_visitor)
+add_subdirectory(magic_trap_upgrade_visitor)

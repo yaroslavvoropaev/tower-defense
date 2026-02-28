@@ -1,0 +1,225 @@
+tower:
+  simple_tower:
+    - id: 0
+      type: simple_tower_weakest_strategy
+      range: 4.5
+      level: 1
+      x: 0
+      y: 0
+      cost: 700
+      strategy: weakest
+      params:
+        damage: 20
+        rate_of_fire: 2
+    - id: 0
+      type: simple_tower_strongest_strategy
+      range: 4.5
+      level: 1
+      x: 0
+      y: 0
+      cost: 700
+      strategy: strongest
+      params:
+        damage: 30
+        rate_of_fire: 1.2
+    - id: 0
+      type: simple_tower_nearest_to_tower_strategy
+      range: 4.5
+      level: 1
+      x: 0
+      y: 0
+      cost: 700
+      strategy: nearest_to_tower
+      params:
+        damage: 30
+        rate_of_fire: 1.2
+    - id: 0
+      type: simple_tower_nearest_to_castle_strategy
+      range: 6.5
+      level: 1
+      x: 0
+      y: 0
+      cost: 700
+      strategy: nearest_to_castle
+      params:
+        damage: 30
+        rate_of_fire: 1.2
+  magic_tower:
+    - id: 0
+      type: magic_tower_weakest_strategy_weakness_effect
+      range: 2.5
+      level: 1
+      x: 0
+      y: 0
+      cost: 700
+      strategy: weakest
+      params:
+        damage: 25
+        rate_of_fire: 0.8
+        effect: weakness
+    - id: 0
+      type: magic_tower_strongest_strategy_weakness_effect
+      range: 2.5
+      level: 1
+      x: 0
+      y: 0
+      cost: 700
+      strategy: strongest
+      params:
+        damage: 25
+        rate_of_fire: 0.8
+        effect: weakness
+    - id: 0
+      type: magic_tower_nearest_to_tower_strategy_weakness_effect
+      range: 2.5
+      level: 1
+      x: 0
+      y: 0
+      cost: 700
+      strategy: nearest_to_tower
+      params:
+        damage: 25
+        rate_of_fire: 0.8
+        effect: weakness
+    - id: 0
+      type: simple_tower_nearest_to_castle_strategy_weakness_effect
+      range: 2.5
+      level: 1
+      x: 0
+      y: 0
+      cost: 700
+      strategy: nearest_to_castle
+      params:
+        damage: 25
+        rate_of_fire: 0.8
+        effect: weakness
+    - id: 0
+      type: magic_tower_weakest_strategy_slow_effect
+      range: 2.5
+      level: 1
+      x: 0
+      y: 0
+      cost: 700
+      strategy: weakest
+      params:
+        damage: 25
+        rate_of_fire: 0.8
+        effect: slow
+    - id: 0
+      type: magic_tower_strongest_strategy_slow_effect
+      range: 2.5
+      level: 1
+      x: 0
+      y: 0
+      cost: 700
+      strategy: strongest
+      params:
+        damage: 25
+        rate_of_fire: 0.8
+        effect: slow
+    - id: 0
+      type: magic_tower_nearest_to_tower_strategy_slow_effect
+      range: 2.5
+      level: 1
+      x: 0
+      y: 0
+      cost: 700
+      strategy: nearest_to_tower
+      params:
+        damage: 2.5
+        rate_of_fire: 0.8
+        effect: slow
+    - id: 0
+      type: magic_tower_nearest_to_castle_strategy_slow_effect
+      range: 2.5
+      level: 1
+      x: 0
+      y: 0
+      cost: 700
+      strategy: nearest_to_castle
+      params:
+        damage: 20
+        rate_of_fire: 0.8
+        effect: slow
+    - id: 0
+      type: magic_tower_weakest_strategy_poison_effect
+      range: 2.5
+      level: 1
+      x: 0
+      y: 0
+      cost: 700
+      strategy: weakest
+      params:
+        damage: 20
+        rate_of_fire: 0.8
+        effect: poison
+    - id: 0
+      type: magic_tower_strongest_strategy_poison_effect
+      range: 2.5
+      level: 1
+      x: 0
+      y: 0
+      cost: 700
+      strategy: strongest
+      params:
+        damage: 25
+        rate_of_fire: 0.8
+        effect: poison
+    - id: 0
+      type: magic_tower_nearest_to_tower_strategy_poison_effect
+      range: 2.5
+      level: 1
+      x: 0
+      y: 0
+      cost: 700
+      strategy: nearest_to_tower
+      params:
+        damage: 25
+        rate_of_fire: 0.8
+        effect: poison
+    - id: 0
+      type: magic_tower_nearest_to_castle_strategy_poison_effect
+      range: 2.5
+      level: 1
+      x: 0
+      y: 0
+      cost: 700
+      strategy: nearest_to_castle
+      params:
+        damage: 25
+        rate_of_fire: 0.8
+        effect: poison
+  magic_trap:
+    - id: 0
+      type: magic_trap_all_in_range_strategy_weakness_effect
+      range: 3
+      level: 1
+      x: 0
+      y: 0
+      cost: 1000
+      strategy: all_in_range
+      params:
+        rate_of_fire: 0.5
+        effect: weakness
+    - id: 0
+      type: magic_trap_all_in_range_strategy_poison_effect
+      range: 3
+      level: 1
+      x: 0
+      y: 0
+      cost: 1000
+      strategy: all_in_range
+      params:
+        rate_of_fire: 0.5
+        effect: poison
+    - id: 0
+      type: magic_trap_all_in_range_strategy_slow_effect
+      range: 3
+      level: 1
+      x: 0
+      y: 0
+      cost: 1000
+      strategy: all_in_range
+      params:
+        rate_of_fire: 0.5
+        effect: slow

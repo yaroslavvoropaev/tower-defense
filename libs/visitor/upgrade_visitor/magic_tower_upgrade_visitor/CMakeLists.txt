@@ -1,0 +1,5 @@
+add_library(magic_tower_upgrade_visitor src/MagicTowerUpgradeVisitor.cpp)
+
+target_include_directories(magic_tower_upgrade_visitor PUBLIC include)
+target_link_libraries(magic_tower_upgrade_visitor iupgrade_visitor magic_tower)
+

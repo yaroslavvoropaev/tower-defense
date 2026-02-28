@@ -1,0 +1,8 @@
+/.idea
+../2/.idea/
+../2/.idea/*
+latex
+html
+Doxyfile
+cmake-build-debug
+cmake-build-coverage-debug

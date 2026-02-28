@@ -1,0 +1,5 @@
+add_library(simple_tower_upgrade_visitor src/SimpleTowerUpgradeVisitor.cpp)
+
+target_include_directories(simple_tower_upgrade_visitor PUBLIC include)
+target_link_libraries(simple_tower_upgrade_visitor iupgrade_visitor simple_tower)
+

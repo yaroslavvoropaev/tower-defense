@@ -1,0 +1,10 @@
+effect:
+  - type: poison
+    magnitude: 0.1
+    duration: 10.0
+  - type: weakness
+    magnitude: 15.0
+    duration: 15.0
+  - type: slow
+    magnitude: 50.0
+    duration: 20.0

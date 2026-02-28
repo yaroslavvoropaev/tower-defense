@@ -1,0 +1,5 @@
+add_library(magic_tower_attack_visitor src/MagicTowerAttackVisitor.cpp)
+
+target_include_directories(magic_tower_attack_visitor PUBLIC include)
+target_link_libraries(magic_tower_attack_visitor iattack_visitor magic_tower ienemy)
+

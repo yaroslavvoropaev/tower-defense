@@ -1,0 +1,4 @@
+add_library(effect_factory src/EffectFactory.cpp)
+
+target_include_directories(effect_factory PUBLIC include)
+target_link_libraries(effect_factory ieffect_factory dto slow_effect poison_effect weakness_effect)

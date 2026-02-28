@@ -1,0 +1,4 @@
+add_subdirectory(effect_factory)
+add_subdirectory(tower_factory)
+add_subdirectory(enemy_factory)
+add_subdirectory(castle_factory)

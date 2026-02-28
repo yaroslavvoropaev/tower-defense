@@ -1,0 +1,4 @@
+add_library(tower_service src/TowerService.cpp)
+
+target_include_directories(tower_service PUBLIC include)
+target_link_libraries(tower_service magic_tower_attack_visitor magic_trap_attack_visitor simple_tower_attack_visitor itower_service icastle_repository itower_repository ienemy_repository)

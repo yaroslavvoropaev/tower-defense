@@ -1,0 +1,5 @@
+add_library(economy_service src/EconomyService.cpp)
+
+target_include_directories(economy_service PUBLIC include)
+target_link_libraries(economy_service ieconomy_service dto simple_tower magic_tower magic_trap icastle_repository itower_repository iupgrade_visitor
+    simple_tower_upgrade_visitor magic_trap_upgrade_visitor magic_tower_upgrade_visitor)

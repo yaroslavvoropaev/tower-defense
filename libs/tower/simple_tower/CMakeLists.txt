@@ -1,0 +1,4 @@
+add_library(simple_tower src/SimpleTower.cpp)
+
+target_include_directories(simple_tower PUBLIC include)
+target_link_libraries(simple_tower damage_tower abstract_tower istrategy)

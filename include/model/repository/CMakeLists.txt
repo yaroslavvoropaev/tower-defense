@@ -1,0 +1,5 @@
+add_subdirectory(enemy_repository)
+add_subdirectory(castle_repository)
+add_subdirectory(tower_repository)
+add_subdirectory(strategy_repository)
+add_subdirectory(mapper_repository)

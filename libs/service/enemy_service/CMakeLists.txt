@@ -1,0 +1,4 @@
+add_library(enemy_service src/EnemyService.cpp)
+
+target_include_directories(enemy_service PUBLIC include)
+target_link_libraries(enemy_service ienemy_service ieconomy_service ienemy_repository icastle_repository)

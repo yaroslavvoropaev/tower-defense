@@ -1,0 +1,3 @@
+add_subdirectory(simple_tower_mapper)
+add_subdirectory(magic_tower_mapper)
+add_subdirectory(magic_trap_mapper)

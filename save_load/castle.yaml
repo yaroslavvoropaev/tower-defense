@@ -1,0 +1,8 @@
+castle:
+  - name: castle
+    id: 1
+    health: 1000.000000
+    max_health: 2000.000000
+    gold: 150
+    x: 5
+    y: 7
