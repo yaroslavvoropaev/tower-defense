@@ -1,0 +1,4 @@
+add_library(castle_factory src/CastleFactory.cpp)
+
+target_include_directories(castle_factory PUBLIC include)
+target_link_libraries(castle_factory icastle_factory castle dto iid_service)

@@ -1,0 +1,11 @@
+tower:
+  - id: 2
+    type: simple_tower
+    range: 1.100000
+    level: 1
+    x: 2
+    y: 7
+    strategy: weakest
+    params:
+      rate_of_fire: 1.000000
+      damage: 10.000000

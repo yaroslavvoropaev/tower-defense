@@ -1,0 +1,3 @@
+add_subdirectory(simple_tower_attack_visitor)
+add_subdirectory(magic_tower_attack_visitor)
+add_subdirectory(magic_trap_attack_visitor)

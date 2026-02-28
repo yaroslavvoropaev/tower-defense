@@ -1,0 +1,11 @@
+enemy:
+  - name: enemy
+    id: 123
+    speed: 120.000000
+    health: 150.000000
+    max_health: 200.000000
+    gold: 100
+    x: 4
+    y: 3
+    x_pixels: 33.000000
+    y_pixels: 32.000000

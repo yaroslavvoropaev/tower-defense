@@ -1,0 +1,5 @@
+add_library(magic_trap_mapper src/MagicTrapMapper.cpp src/MagicTrapDTOMapper.cpp)
+
+target_include_directories(magic_trap_mapper PUBLIC include)
+
+target_link_libraries(magic_trap_mapper itower_mapper istrategy_repository magic_trap ieffect_factory)

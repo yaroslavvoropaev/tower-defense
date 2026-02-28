@@ -1,0 +1,14 @@
+level:
+  size:
+    - width: 16
+    - height: 9
+  map:
+    - [road, road, road, forest, grass, grass, grass, grass, forest, grass, grass, field, grass, grass, grass, grass]
+    - [grass, forest, road, grass, grass, grass, grass, grass, grass, field, grass, grass, grass, grass, grass, grass]
+    - [grass, grass, road, road, road, road, road, road, grass, grass, forest, grass, grass, grass, grass, grass]
+    - [field, grass, grass, grass, grass, grass, grass, road, grass, grass, grass, field, grass, grass, grass, grass]
+    - [grass, forest, grass, field, grass, grass, grass, road, road, road, grass, grass, grass, grass, grass, grass]
+    - [grass, grass, grass, grass, grass, grass, field, grass, grass, road, grass, grass, forest, grass, field, grass]
+    - [grass, grass, forest, grass, grass, grass, grass, grass, grass, road, road, road, road, road, grass, grass]
+    - [grass, grass, grass, field, grass, grass, grass, grass, grass, grass, grass, grass, grass, road, forest, grass]
+    - [grass, grass, grass, grass, grass, field, grass, grass, grass, grass, grass, grass, grass, road, road, road]

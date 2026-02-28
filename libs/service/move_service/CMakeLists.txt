@@ -1,0 +1,4 @@
+add_library(move_service src/MoveService.cpp)
+
+target_include_directories(move_service PUBLIC include)
+target_link_libraries(move_service imove_service ienemy_repository game_field)

@@ -1,0 +1,4 @@
+add_library(enemy_factory src/EnemyFactory.cpp)
+
+target_include_directories(enemy_factory PUBLIC include)
+target_link_libraries(enemy_factory ienemy_factory enemy dto iid_service)

@@ -1,0 +1,5 @@
+add_library(magic_trap_upgrade_visitor src/MagicTrapUpgradeVisitor.cpp)
+
+target_include_directories(magic_trap_upgrade_visitor PUBLIC include)
+target_link_libraries(magic_trap_upgrade_visitor iupgrade_visitor magic_trap)
+

@@ -1,0 +1,5 @@
+add_library(magic_trap_attack_visitor src/MagicTrapAttackVisitor.cpp)
+
+target_include_directories(magic_trap_attack_visitor PUBLIC include)
+target_link_libraries(magic_trap_attack_visitor iattack_visitor magic_trap ienemy)
+

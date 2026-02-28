@@ -1,0 +1,5 @@
+add_library(simple_tower_attack_visitor src/SimpleTowerAttackVisitor.cpp)
+
+target_include_directories(simple_tower_attack_visitor PUBLIC include)
+target_link_libraries(simple_tower_attack_visitor iattack_visitor simple_tower ienemy)
+

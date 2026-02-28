@@ -1,0 +1,3 @@
+add_subdirectory(poison_effect)
+add_subdirectory(weakness_effect)
+add_subdirectory(slow_effect)

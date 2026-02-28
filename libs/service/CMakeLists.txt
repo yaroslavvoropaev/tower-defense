@@ -1,0 +1,6 @@
+add_subdirectory(tower_service)
+add_subdirectory(enemy_service)
+add_subdirectory(economy_service)
+add_subdirectory(state_service)
+add_subdirectory(id_service)
+add_subdirectory(move_service)

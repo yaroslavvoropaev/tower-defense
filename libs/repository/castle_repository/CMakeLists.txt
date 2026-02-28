@@ -1,0 +1,4 @@
+add_library(castle_repository src/CastleRepository.cpp)
+
+target_include_directories(castle_repository PUBLIC include)
+target_link_libraries(castle_repository icastle_repository)

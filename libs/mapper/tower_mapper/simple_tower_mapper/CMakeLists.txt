@@ -1,0 +1,5 @@
+add_library(simple_tower_mapper src/SimpleTowerMapper.cpp src/SimpleTowerDTOMapper.cpp)
+
+target_include_directories(simple_tower_mapper PUBLIC include)
+
+target_link_libraries(simple_tower_mapper itower_mapper abstract_tower istrategy_repository simple_tower)

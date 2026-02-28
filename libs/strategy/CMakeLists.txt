@@ -1,0 +1,5 @@
+add_subdirectory(weakest)
+add_subdirectory(strongest)
+add_subdirectory(nearest_to_castle)
+add_subdirectory(nearest_to_tower)
+add_subdirectory(all_in_range)
